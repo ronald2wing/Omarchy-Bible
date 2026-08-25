@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bible",
+  "name": "Bible",
+  "version": "1.0.0",
+  "author": "ronald2wing",
+  "license": "MIT",
+  "description": "A bar widget with the Verse of the Day and an offline Bible reader with five selectable translations (DR, CPDV, KJV, WEB, BSB).",
+  "keywords": [
+    "bible",
+    "catholic",
+    "reference",
+    "douay-rheims",
+    "verse",
+    "bsb",
+    "reader"
+  ],
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Bible",
+    "description": "Verse of the Day and an offline Bible reader with selectable translation",
+    "category": "Reference",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
