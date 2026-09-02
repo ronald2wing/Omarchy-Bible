@@ -1,3 +1,6 @@
+# Dev-only (not shipped in the installed plugin)
+AGENTS.md
+
 # Editors / IDEs
 .idea/
 .vscode/
